@@ -30,3 +30,7 @@ jobs:
     - name: Build Projeto
       working-directory: ./
       run: mvn clean package -DskipTests
+      
+    - name: Docker Compose Build
+      working-directory: ./
+      run: docker-compose build
