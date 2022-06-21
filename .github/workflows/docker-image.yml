@@ -28,5 +28,5 @@ jobs:
        distribution: 'adopt'
        
     - name: Build Projeto
-      working-directory: .
+      working-directory: ./
       run: run clean package
