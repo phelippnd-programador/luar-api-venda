@@ -28,5 +28,5 @@ jobs:
        distribution: 'adopt'
        
     - name: Build Projeto
-      working-directory: ./luar-api-venda
+      working-directory: .
       run: mvn clean package
