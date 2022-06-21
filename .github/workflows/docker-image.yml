@@ -29,4 +29,4 @@ jobs:
        
     - name: Build Projeto
       working-directory: .
-      run: run clean package 
+      run: run clean package
